@@ -119,7 +119,7 @@ function start(selection){
   while (getWord.toLowerCase() !== 'stop' ){
     
     getWord = input.question("Enter a word to be scored, or 'Stop' to quit: ")
-    if (getWord.toLocaleLowerCase() === 'stop'){
+    if (getWord.toLowerCase() === 'stop'){
       console.log('\nThank you for playing!')
       break;
     } else {
